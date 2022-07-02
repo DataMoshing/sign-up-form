@@ -6,10 +6,11 @@
     border: 0;
     border: none;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
-    background-image: url(eleanor-brooke-kbk65DQ79Tk-unsplash.jpg);
+    background-image: url(/images/eleanor-brooke-kbk65DQ79Tk-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: 75vh;
     font-family: "Heebo", sans-serif;
@@ -17,7 +18,7 @@ body {
     flex-direction: column;
 }
 
-.header-logo {
+.main-logo {
     background-color: rgba(19, 16, 16, .75);
     color: azure;
     display: flex;
@@ -30,6 +31,7 @@ body {
 }
 
 img {
+    display: flex;
     width: 150px;
     margin-left: 5em;
 }
@@ -60,7 +62,6 @@ form {
     flex-wrap: wrap;
     justify-content: center;
     margin: -7.5em 0 0 40em;
-    width: 100vh 100vw;
     background-color: rgba(0, 0, 0, 0.16);
     border-radius: 5px;
     padding: 15px;
@@ -81,6 +82,14 @@ input[type="password"] {
     margin-bottom: 15px;
     margin: 4.5px;
     padding: 15px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="password"]:focus {
+    outline: solid 2px rgba(119, 163, 245, 0.87);
+    /* box-shadow: 0px 0px 10px #3396bd; */
 }
 
 .createActBtn {
@@ -114,7 +123,8 @@ button {
     width: 200px;
 }
 
-button:hover {
+button:hover,
+button:focus {
     color: #fff;
     background-color: #68a876;
     box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
@@ -124,4 +134,17 @@ button:hover {
 button:active {
     box-shadow: none;
     transform: translateY(0);
+}
+
+.log-in {
+    display: flex;
+    justify-content: center;
+    margin: .5em 0 0 40em;
+}
+
+#footer {
+    bottom: 0;
+    color: #fff;
+    position: fixed;
+    margin-left: 12.5em;
 }
