@@ -6,11 +6,11 @@
     border: 0;
     border: none;
     box-sizing: border-box;
-    text-decoration: none;
+    images/eleanor-brooke-kbk65DQ79Tk-unsplash.jpg text-decoration: none;
 }
 
 body {
-    background-image: url(/images/eleanor-brooke-kbk65DQ79Tk-unsplash.jpg);
+    background-image: url(images/eleanor-brooke-kbk65DQ79Tk-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: 75vh;
     font-family: "Heebo", sans-serif;
@@ -147,9 +147,4 @@ button:active {
     color: #fff;
     position: absolute;
     margin-left: 12.5em;
-}
-
-#passwordCheck {
-    display: flex;
-    flex-wrap: wrap;
 }
