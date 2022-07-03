@@ -95,6 +95,7 @@ input[type="password"]:focus {
 .createActBtn {
     display: flex;
     justify-content: center;
+    margin-left: 5em;
 }
 
 button {
@@ -139,7 +140,7 @@ button:active {
 .log-in {
     display: flex;
     justify-content: center;
-    margin: .5em 0 0 40em;
+    margin: .5em 0 0 45em;
 }
 
 #footer {
