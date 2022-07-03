@@ -143,8 +143,9 @@ button:active {
 }
 
 #footer {
-    bottom: 0;
+    /* bottom: 0; */
     color: #fff;
     position: absolute;
     margin-left: 12.5em;
+    padding-top: 58em;
 }
